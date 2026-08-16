@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Northstar Retail Core customer support MVP">
+  <title>Northstar Retail Core | Support Centre</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="brand-watermark" aria-hidden="true">NORTHSTAR RETAIL CORE</div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Northstar Retail Core home">
+      <span class="brand-mark">N</span>
+      <span>
+        <strong>NORTHSTAR</strong>
+        <small>RETAIL CORE</small>
+      </span>
+    </a>
+    <button class="icon-button home-trigger" id="homeTrigger" aria-expanded="false" aria-controls="supportNav">
+      <span class="icon" aria-hidden="true">⌂</span>
+      <span>Home</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">CUSTOMER SUPPORT CENTRE</p>
+        <h1>Resolve the next step<br><em>with confidence.</em></h1>
+        <p class="hero-text">
+          A focused self-service experience for order status, returns and refunds,
+          stock availability, product alternatives and support escalation.
+        </p>
+        <button class="primary-button home-trigger" id="heroHome" aria-expanded="false">
+          Enter Support Centre <span aria-hidden="true">→</span>
+        </button>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-top">
+          <span class="status-dot"></span>
+          <span>DEMONSTRATION MVP</span>
+        </div>
+        <div class="hero-card-title">Northstar<br>Retail Core</div>
+        <div class="hero-card-line"></div>
+        <p>Demonstration data only. No live orders, payments, GPS or customer notifications are connected.</p>
+      </div>
+    </section>
+
+    <section class="support-nav" id="supportNav" hidden>
+      <div class="section-heading">
+        <p class="eyebrow">SUPPORT CENTRE</p>
+        <h2>Choose what you need.</h2>
+        <p>Each route is designed to provide a useful next action rather than a dead end.</p>
+      </div>
+
+      <div class="service-grid">
+        <a class="service-card" href="pages/order-status.html">
+          <span class="service-icon">↗</span>
+          <span class="service-title">Order Status</span>
+          <span class="service-copy">Check the current order stage, delivery method and estimated delivery.</span>
+          <span class="service-link">Check order <b>→</b></span>
+        </a>
+
+        <a class="service-card" href="pages/returns.html">
+          <span class="service-icon">↩</span>
+          <span class="service-title">Returns & Refunds</span>
+          <span class="service-copy">Check eligibility, understand the policy and receive complete return instructions.</span>
+          <span class="service-link">Manage a return <b>→</b></span>
+        </a>
+
+        <a class="service-card featured" href="pages/stock.html">
+          <span class="service-icon">◫</span>
+          <span class="service-title">Stock Availability</span>
+          <span class="service-copy">Search a product ID, view the product image, size, colour and available alternatives.</span>
+          <span class="service-link">Check stock <b>→</b></span>
+        </a>
+
+        <a class="service-card" href="pages/human-support.html">
+          <span class="service-icon">○</span>
+          <span class="service-title">Human Support</span>
+          <span class="service-copy">Escalate an issue with a structured reference and clear context.</span>
+          <span class="service-link">Get support <b>→</b></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="principles">
+      <div>
+        <p class="eyebrow">DESIGN PRINCIPLE</p>
+        <h2>Useful until the next action is clear.</h2>
+      </div>
+      <p>
+        Northstar is designed to answer the customer's immediate question and then
+        guide them forward: track, return, compare, notify or escalate.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>NORTHSTAR RETAIL CORE</span>
+    <span>Support Deflection MVP · Demonstration Environment</span>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
